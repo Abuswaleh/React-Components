@@ -1,0 +1,28 @@
+.signUpForm {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	max-width: 500px;
+}
+
+.signUpForm form {
+	display: grid;
+	text-align: left;
+	grid-template-columns: 30% 70%;
+}
+
+label {
+	font-weight: bold;
+}
+
+form p {
+	padding: 0;
+	margin: 0 0 5px 0;
+	font-size: 0.7rem;
+	color: red;
+	font-weight: bold;
+}
